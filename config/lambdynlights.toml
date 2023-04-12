@@ -86,6 +86,7 @@ mode = "fancy"
 				cave_spider = true
 				witch = true
 				cod = true
+				snow_golem = true
 				spider = true
 
 			[light_sources.settings.entities.immersive_portals]

@@ -38,12 +38,12 @@ entityDistanceScaling:1.0
 guiScale:3
 particles:1
 maxFps:60
-graphicsMode:0
+graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"false"
-resourcePacks:["vanilla","fabric","file/Faithful 32x - 1.19.4.zip"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:it_it
