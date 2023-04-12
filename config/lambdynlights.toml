@@ -75,6 +75,7 @@ mode = "fancy"
 				sheep = true
 				player = true
 				pufferfish = true
+				illusioner = true
 				eye_of_ender = true
 				villager = true
 				wolf = true
