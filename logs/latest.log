@@ -1,0 +1,724 @@
+[14:03:41] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[14:03:41] [ForkJoinPool-1-worker-12/WARN]: Mod lod uses the version 1.6.11a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '11a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:03:41] [ForkJoinPool-1-worker-7/WARN]: Mod terralith uses the version 2.3.7b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '7b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:03:41] [main/INFO]: Loading 142 mods:
+	- ambientsounds 5.2.18
+	- appleskin 2.4.3+mc1.19.4
+	- backpacked 2.2.0
+	- betterdeserttemples 1.19.4-Fabric-2.4.0
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.19.4-Fabric-3.4.0
+	- betterfortresses 1.19.4-Fabric-1.2.0
+	- bettermineshafts 1.19.4-Fabric-3.4.0
+	- betteroceanmonuments 1.19.4-Fabric-2.3.0
+	- betterstats 2.5.2+1.19.4
+	   \-- tcdcommons 2.5.1+1.19.4
+	        \-- architectury 8.1.73
+	- betterstrongholds 1.19.4-Fabric-3.4.0
+	- betterwitchhuts 1.19.4-Fabric-2.3.0
+	- bookshelf 18.0.2
+	- cardinal-components 5.1.0
+	   |-- cardinal-components-base 5.1.0
+	   |-- cardinal-components-block 5.1.0
+	   |-- cardinal-components-chunk 5.1.0
+	   |-- cardinal-components-entity 5.1.0
+	   |-- cardinal-components-item 5.1.0
+	   |-- cardinal-components-level 5.1.0
+	   |-- cardinal-components-scoreboard 5.1.0
+	   \-- cardinal-components-world 5.1.0
+	- carpet 1.4.101+v230319
+	- carpet-extra 1.4.100
+	- carpetskyadditions 1.19.4-4.3.1
+	- cherishedworlds 6.0.4+1.19.4
+	- cloth-config 10.0.96
+	   \-- cloth-basic-math 0.6.1
+	- clumps 10.0.0.2
+	- collective 6.54
+	- crawl 0.11.5
+	   \-- mm 2.3
+	- creativecore 2.10.7
+	   \-- net_minecraftforge_eventbus 6.0.4
+	- ctov 3.1.8
+	- darkpaintings 15.0.1
+	- disable_custom_worlds_advice 4.0
+	- dungeon_difficulty 2.0.1+1.19.4
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- dynamicfps 2.2.0
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- fabric-api 0.78.0+1.19.4
+	   |-- fabric-api-base 0.4.23+9ff28bcef4
+	   |-- fabric-api-lookup-api-v1 1.6.24+49abcf7ef4
+	   |-- fabric-biome-api-v1 13.0.6+348a9c64f4
+	   |-- fabric-block-api-v1 1.0.5+e022e5d1f4
+	   |-- fabric-blockrenderlayer-v1 1.1.33+c2e6f674f4
+	   |-- fabric-client-tags-api-v1 1.0.14+1134c5b8f4
+	   |-- fabric-command-api-v1 1.2.26+f71b366ff4
+	   |-- fabric-command-api-v2 2.2.5+e719b857f4
+	   |-- fabric-commands-v0 0.2.43+df3654b3f4
+	   |-- fabric-containers-v0 0.1.53+df3654b3f4
+	   |-- fabric-content-registries-v0 3.5.8+ae0966baf4
+	   |-- fabric-convention-tags-v1 1.4.0+9a7c5daaf4
+	   |-- fabric-crash-report-info-v1 0.2.14+aeb40ebef4
+	   |-- fabric-data-generation-api-v1 11.3.7+5da15ca1f4
+	   |-- fabric-dimensions-v1 2.1.44+7f87f8faf4
+	   |-- fabric-entity-events-v1 1.5.12+e45f7c65f4
+	   |-- fabric-events-interaction-v0 0.4.42+a1ccd7bff4
+	   |-- fabric-events-lifecycle-v0 0.2.51+df3654b3f4
+	   |-- fabric-game-rule-api-v1 1.0.32+a1ccd7bff4
+	   |-- fabric-item-api-v1 2.1.16+09a3510cf4
+	   |-- fabric-item-group-api-v1 3.0.4+043f9acff4
+	   |-- fabric-key-binding-api-v1 1.0.32+c477957ef4
+	   |-- fabric-keybindings-v0 0.2.30+df3654b3f4
+	   |-- fabric-lifecycle-events-v1 2.2.14+5da15ca1f4
+	   |-- fabric-loot-api-v2 1.1.26+75e98211f4
+	   |-- fabric-loot-tables-v1 1.1.30+9e7660c6f4
+	   |-- fabric-message-api-v1 5.1.0+1ee8be40f4
+	   |-- fabric-mining-level-api-v1 2.1.38+49abcf7ef4
+	   |-- fabric-models-v0 0.3.29+11ba9c3bf4
+	   |-- fabric-networking-api-v1 1.3.0+a6f3ccfaf4
+	   |-- fabric-networking-v0 0.3.40+df3654b3f4
+	   |-- fabric-object-builder-api-v1 7.0.2+63b515f4f4
+	   |-- fabric-particles-v1 1.0.22+f1e4495bf4
+	   |-- fabric-recipe-api-v1 1.0.7+a1ccd7bff4
+	   |-- fabric-registry-sync-v0 2.1.3+a383ab97f4
+	   |-- fabric-renderer-api-v1 2.2.4+81e8c576f4
+	   |-- fabric-renderer-indigo 1.1.0+81e8c576f4
+	   |-- fabric-renderer-registries-v1 3.2.37+df3654b3f4
+	   |-- fabric-rendering-data-attachment-v1 0.3.27+afca2f3ef4
+	   |-- fabric-rendering-fluids-v1 3.0.20+f1e4495bf4
+	   |-- fabric-rendering-v0 1.1.40+df3654b3f4
+	   |-- fabric-rendering-v1 2.1.0+8f878217f4
+	   |-- fabric-resource-conditions-api-v1 2.3.0+e6c7d4eef4
+	   |-- fabric-resource-loader-v0 0.11.1+1e1fb126f4
+	   |-- fabric-screen-api-v1 1.0.44+8c25edb4f4
+	   |-- fabric-screen-handler-api-v1 1.3.19+5da15ca1f4
+	   |-- fabric-sound-api-v1 1.0.8+75e98211f4
+	   |-- fabric-transfer-api-v1 3.1.0+d51205dbf4
+	   \-- fabric-transitive-access-wideners-v1 3.0.2+63b515f4f4
+	- fabricloader 0.14.19
+	- fastload 3.3.3
+	   |-- conditional-mixin 0.3.2
+	   |-- fastload-119-0-1-2-compat 3.3.3
+	   |-- fastload-1193-compat 3.3.3
+	   |-- fastload-1194-compat 3.3.3
+	   \-- fastload_fapi_forward 1.0.1
+	- framework 0.6.0
+	   |-- com_electronwill_night-config_core 3.6.6
+	   |-- com_electronwill_night-config_toml 3.6.6
+	   \-- org_javassist_javassist 3.29.2-GA
+	- friendsandfoes 1.8.1
+	   \-- com_github_llamalad7_mixinextras 0.1.1
+	- guardvillagers 1.19.4-1.1.0
+	- guiclock 4.2
+	- guicompass 4.2
+	- guifollowers 3.2
+	- incendium 5.2.1
+	- iris 1.6.0
+	   |-- io_github_douira_glsl-transformer 2.0.0-pre12
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.11.1
+	- jade 10.0.0
+	- java 17
+	- jei 13.1.0.2
+	- journeymap 5.9.5
+	   \-- journeymap-api-fabric 1.19.4-1.9-fabric-SNAPSHOT
+	- lambdynlights 2.3.0+1.19.4
+	   |-- pride 1.2.0+1.19.4
+	   \-- spruceui 4.2.0+1.19.4
+	- lithium 0.11.1
+	- lod 1.6.11a
+	- midnightlib 1.3.0
+	- minecraft 1.19.4
+	- modmenu 6.1.0-rc.4
+	- mousetweaks 2.24
+	- panorama 1.3.0
+	- phosphor 0.8.1
+	- projectile_damage 3.0.0+1.19.4
+	- skinlayers 1.5.3-mc1.19.4
+	- sodium 0.4.10+build.24
+	- sound_physics_remastered 1.19.4-1.1.0
+	- terralith 2.3.7b
+	- tipsmod 10.0.2
+	- voicechat 1.19.4-2.4.4
+	- world-gen 1.0.3
+	- yungsapi 1.19.4-Fabric-3.10.1
+	- yungsbridges 1.19.4-Fabric-3.3.0
+	- yungsextras 1.19.4-Fabric-3.3.0
+[14:03:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Lorenzo%20Giannini/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[14:03:42] [main/INFO]: Compatibility level set to JAVA_17
+[14:03:42] [main/WARN]: Reference map 'betterstats-refmap.json' for betterstats.client.mixin.json could not be read. If this is a development environment you can ignore this message
+[14:03:42] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
+[14:03:42] [main/INFO]: Loaded configuration file for Sodium: 33 options available, 3 override(s) found
+[14:03:42] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:03:42] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:03:43] [main/WARN]: Force-disabling mixin 'features.entity.fast_render.MixinCuboid' as rule 'mixin.features.entity.fast_render' (added by mods [iris]) disables it and children
+[14:03:43] [main/WARN]: Force-disabling mixin 'features.entity.fast_render.MixinModelPart' as rule 'mixin.features.entity.fast_render' (added by mods [iris]) disables it and children
+[14:03:43] [main/WARN]: Force-disabling mixin 'features.gui.font.MixinGlyphRenderer' as rule 'mixin.features.gui.font' (added by mods [iris]) disables it and children
+[14:03:43] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[14:03:51] [Datafixer Bootstrap/INFO]: 182 Datafixer optimizations took 196 milliseconds
+[14:03:54] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[14:03:54] [Render thread/INFO]: Launching a new process to probe the system configuration!
+[14:03:55] [Render thread/INFO]: OpenGL Vendor: Intel
+[14:03:55] [Render thread/INFO]: OpenGL Renderer: Intel(R) UHD Graphics 630
+[14:03:55] [Render thread/INFO]: OpenGL Version: 3.3.0 - Build 26.20.100.7584
+[14:03:55] [Render thread/WARN]: @Final field field_2585:Lnet/minecraft/class_766; in panorama.mixins.json:TitleScreenMixin from mod panorama should be final
+[14:03:55] [Render thread/WARN]: @Final field field_17774:Lnet/minecraft/class_751; in panorama.mixins.json:TitleScreenMixin from mod panorama should be final
+[14:03:55] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:03:56] [Render thread/INFO]: Setting user: Loweredgames
+[14:03:56] [Render thread/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[14:03:56] [Render thread/INFO]: Reflections took 119 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:56] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:57] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[14:03:57] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[14:03:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:03:57] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[14:03:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:03:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:03:57] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:03:57] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:03:57] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[14:03:57] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[14:03:57] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[14:03:57] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[14:03:57] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[14:03:57] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[14:03:57] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[14:03:57] [Render thread/INFO]: Loading Collective version 6.54.
+[14:03:58] [Render thread/INFO]: Reflections took 25 ms to scan 1 urls, producing 2 keys and 25 values
+[14:03:58] [Render thread/INFO]: Initializing ServerSide Packet Registries
+[14:03:58] [Render thread/INFO]: Definitely not up to no good
+[14:03:58] [Render thread/INFO]: Reloading reverb parameters
+[14:03:58] [Render thread/INFO]: Compatibility version 17
+[14:03:58] [Render thread/INFO]: Loading plugins
+[14:03:58] [Render thread/INFO]: Loaded 1 plugin(s)
+[14:03:58] [Render thread/INFO]: Initializing plugins
+[14:03:58] [Render thread/INFO]: Initializing Simple Voice Chat integration
+[14:03:58] [Render thread/INFO]: Initialized 1 plugin(s)
+[14:03:58] [Render thread/INFO]: Registering events for sound_physics_remastered
+[14:03:58] [Render thread/INFO]: WorldGen initialized
+[14:03:58] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[14:03:58] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[14:03:58] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:58] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:58] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:58] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:03:59] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[14:03:59] [Render thread/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
+[14:03:59] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[14:03:59] [Render thread/INFO]: Fastload Perceived Version: 1.19.4
+[14:03:59] [Render thread/INFO]: Fastload Abstraction Supported Versions: 1.19.4
+[14:03:59] [Render thread/INFO]: DEBUG: FALSE
+[14:03:59] [Render thread/INFO]: CHUNK_TRY_LIMIT: 250
+[14:03:59] [Render thread/INFO]: LOCAL_RENDER_CHUNK_RADIUS: 10
+[14:03:59] [Render thread/INFO]: LOCAL_RENDER_CHUNK_AREA: 314
+[14:03:59] [Render thread/INFO]: SERVER_RENDER_CHUNK_RADIUS: 3
+[14:03:59] [Render thread/INFO]: SERVER_RENDER_CHUNK_AREA: 28
+[14:03:59] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[14:04:00] [Render thread/INFO]: Sending ConfigManager...
+[14:04:00] [Render thread/INFO]: Sending ConfigManager took 5.383 ms
+[14:04:00] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[14:04:00] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[14:04:00] [Render thread/WARN]: Using Cloth Config GUI
+[14:04:00] [Render thread/INFO]: Using Cloth Config GUI
+[14:04:00] [Worker-Main-1/INFO]: Checking mod updates...
+[14:04:00] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[14:04:00] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[14:04:00] [Render thread/INFO]: Initializing 'TCD Commons API' 2.5.1+1.19.4 as 'TCDCommonsClient'.
+[14:04:00] [Render thread/INFO]: Loaded config file.
+[14:04:00] [Render thread/INFO]: Saved config file.
+[14:04:00] [Render thread/INFO]: Loading Opus
+[14:04:00] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[14:04:01] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[14:04:01] [Worker-Main-1/INFO]: Update available for 'cardinal-components@5.1.0', (-> 5.1.0)
+[14:04:02] [Render thread/INFO]: Debug functionality is disabled.
+[14:04:02] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[14:04:02] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[14:04:02] [Render thread/INFO]: Shaders are disabled
+[14:04:02] [Render thread/ERROR]: Couldn't load pack metadata
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 6 column 2 path $.pack.description
+	at net.minecraft.class_3518.method_47993(class_3518.java:518) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:523) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15274(class_3518.java:585) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15255(class_3518.java:593) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3255.method_14392(class_3255.java:43) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3255.method_14407(class_3255.java:35) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3288.method_45274(class_3288.java:71) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3288.method_45275(class_3288.java:47) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3279.method_45272(class_3279.java:51) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3279.method_45271(class_3279.java:66) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3279.method_14453(class_3279.java:47) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3283.method_29212(class_3283.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3283.method_14445(class_3283.java:32) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:525) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:198) ~[fabric-loader-0.14.19-1.19.4.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.19.jar:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 6 column 2 path $.pack.description
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1042) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:824) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.readTerminal(TypeAdapters.java:747) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:791) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:516) ~[client-intermediary.jar:?]
+	... 17 more
+[14:04:02] [Render thread/WARN]: Missing metadata in pack file/Brixel 3.0 64x - unpack me!.zip
+[14:04:02] [Render thread/INFO]: Hardware information:
+[14:04:02] [Render thread/INFO]: CPU: 12x Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+[14:04:02] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 2060/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 531.41)
+[14:04:02] [Render thread/INFO]: OS: Windows 10 (10.0)
+[14:04:03] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[14:04:03] [Render thread/INFO]: Reloading ResourceManager: vanilla, Fabric Mods (Ambient Sounds (Fabric), AppleSkin, Backpacked, YUNG's Better Desert Temples, YUNG's Better Dungeons, YUNG's Better Nether Fortresses, YUNG's Better Mineshafts, YUNG's Better Ocean Monuments, Better Statistics Screen, YUNG's Better Strongholds, YUNG's Better Witch Huts, Bookshelf, Cardinal Components API, Cardinal Components API (base), Cardinal Components API (blocks), Cardinal Components API (chunks), Cardinal Components API (entities), Cardinal Components API (items), Cardinal Components API (world saves), Cardinal Components API (scoreboard), Cardinal Components API (worlds), Carpet Mod, Carpet Extra, Carpet Sky Additions, Cherished Worlds, Cloth Config v10, Clumps, Collective, conditional mixin, Crawl, CreativeCore (Fabric), ChoiceTheorem's Overhauled Villages, DarkPaintings, Disable Custom Worlds Advice, Dungeon Difficulty, Dynamic FPS, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Block API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Group API (v1), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Recipe API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Sound API (v1), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Fast Load, Fastload 1.19-0-1-2 Compatibility, Fastload 1.19.3 Compatibility, Fastload 1.19.4 Compat, Fastload Fabric-api Forwarding, Friends&Foes, Guard Villagers Fabric, GUI Followers, Incendium, Iris, Jade, Just Enough Items, Journeymap, LambDynamicLights, Lithium, Distant Horizons, MidnightLib, Manningham Mills, Mod Menu, Panorama, Phosphor, Pride Lib, Projectile Damage Attribute, 3d Skin Layers, Sodium, Sound Physics Remastered, SpruceUI, TCD Commons API, Terralith, Tips, Simple Voice Chat, WorldGen), file/Faithful 32x - 1.19.4.zip
+[14:04:03] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[14:04:04] [Render thread/INFO]: ReflectionHandler: unable to find the Optifine fog field. If Optifine isn't installed this can be ignored.
+[14:04:04] [Render thread/INFO]: Distant Horizons, Version: 1.6.11a
+[14:04:04] [Render thread/INFO]: Registored mod comatibility accessor for Sodium-Fabric
+[14:04:04] [Render thread/INFO]: Start loading plugin from Jade
+[14:04:04] [Render thread/INFO]: Start loading plugin from Jade
+[14:04:04] [Render thread/INFO]: Start loading plugin from Jade
+[14:04:04] [Render thread/INFO]: Initializing ClientSide Packet Registries
+[14:04:04] [Render thread/INFO]: No plugins for JourneyMap API discovered.
+[14:04:05] [Render thread/INFO]: Loaded AmbientEngine 'basic' v2.2.1. 11 dimension(s), 10 features, 11 groups, 33 regions, 59 sounds, 4 solids and 2 biome types
+[14:04:05] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brushing
+[14:04:05] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brush_sand_completed
+[14:04:05] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[14:04:05] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:04:05] [Render thread/WARN]: Missing sound for event: minecraft:music.overworld.cherry_grove
+[14:04:06] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altoparlanti (Realtek(R) Audio)
+[14:04:06] [Render thread/INFO]: Initializing Sound Physics
+[14:04:06] [Render thread/INFO]: EFX Extension recognized
+[14:04:06] [Render thread/INFO]: Max auxiliary sends: 4
+[14:04:06] [Render thread/INFO]: Aux slot 1 created
+[14:04:06] [Render thread/INFO]: Aux slot 2 created
+[14:04:06] [Render thread/INFO]: Aux slot 3 created
+[14:04:06] [Render thread/INFO]: Aux slot 4 created
+[14:04:06] [Render thread/INFO]: EFX ready
+[14:04:06] [Render thread/INFO]: Sound engine started
+[14:04:06] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/beds.png-atlas
+[14:04:06] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14:04:06] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:04:06] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[14:05:51] [Render thread/ERROR]: Invalid mod icon for icon source backpacked: backpacked_icon.png
+java.nio.file.NoSuchFileException: /backpacked_icon.png
+	at jdk.nio.zipfs.ZipFileSystem.newInputStream(ZipFileSystem.java:861) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipPath.newInputStream(ZipPath.java:749) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.newInputStream(ZipFileSystemProvider.java:261) ~[jdk.zipfs:?]
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at com.terraformersmc.modmenu.util.mod.fabric.FabricIconHandler.createIcon(FabricIconHandler.java:34) ~[modmenu-6.1.0-rc.4.jar:?]
+	at com.terraformersmc.modmenu.util.mod.fabric.FabricMod.getIcon(FabricMod.java:159) ~[modmenu-6.1.0-rc.4.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.entries.ModListEntry.bindIconTexture(ModListEntry.java:134) ~[modmenu-6.1.0-rc.4.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.entries.ModListEntry.method_25343(ModListEntry.java:58) ~[modmenu-6.1.0-rc.4.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.ModListWidget.method_25311(ModListWidget.java:232) ~[modmenu-6.1.0-rc.4.jar:?]
+	at net.minecraft.class_350.method_25394(class_350.java:227) ~[client-intermediary.jar:?]
+	at com.terraformersmc.modmenu.gui.ModsScreen.method_25394(ModsScreen.java:285) ~[modmenu-6.1.0-rc.4.jar:?]
+	at net.minecraft.class_437.method_47413(class_437.java:121) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3192(class_757.java:937) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1218) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:801) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:237) ~[fabric-loader-0.14.19-1.19.4.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.19.jar:?]
+[14:05:51] [Render thread/WARN]: Warning! Mod backpacked has a broken icon, loading default icon
+[14:05:53] [Render thread/ERROR]: ########## GL ERROR ##########
+[14:05:53] [Render thread/ERROR]: @ Render
+[14:05:53] [Render thread/ERROR]: 65540: Invalid scancode -1
+[14:13:56] [Render thread/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:13:57] [Render thread/INFO]: Loaded 7 recipes
+[14:13:57] [Render thread/INFO]: Loaded 1273 advancements
+[14:13:58] [Render thread/INFO]: Stopping JEI
+[14:13:58] [Render thread/INFO]: Stopping JEI
+[14:13:58] [Render thread/INFO]: Sending Runtime Unavailable...
+[14:13:58] [Render thread/INFO]: Stopping JEI GUI
+[14:13:58] [Render thread/INFO]: Sending Runtime Unavailable took 330.6 ?s
+[14:13:58] [Render thread/INFO]: Applied 634 biome modifications to 151 of 170 new biomes in 40.27 ms
+[14:13:58] [Server thread/INFO]: Loading server configs...
+[14:13:58] [Server thread/INFO]: Starting integrated minecraft server version 1.19.4
+[14:13:58] [Server thread/INFO]: Generating keypair
+[14:14:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:14:00] [Render thread/INFO]: Time elapsed: 599671 ms
+[14:14:09] [Render thread/INFO]: Time elapsed: 608061 ms
+[14:14:09] [VoiceChatServerThread/INFO]: Server started at port 51477
+[14:14:09] [Server thread/INFO]: Loweredgames[local:E:7cb96922] logged in with entity id 3 at (440.16009005565934, 64.0, 299.59758871500946)
+[14:14:09] [Server thread/INFO]: Syncing config to Loweredgames (16d1f77e-7b6f-43db-8def-60f6f26affa1)
+[14:14:09] [Server thread/INFO]: Loweredgames si è unito/a alla partita
+[14:14:10] [Server thread/INFO]: Changing view distance to 15, from 10
+[14:14:10] [Server thread/INFO]: Changing simulation distance to 10, from 0
+[14:14:10] [Render thread/INFO]: Started 6 worker threads
+[14:14:10] [Render thread/INFO]: Sending secret request to the server
+[14:14:10] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[14:14:10] [Render thread/INFO]: Initializing Sound Physics
+[14:14:10] [Render thread/INFO]: EFX Extension recognized
+[14:14:10] [Render thread/INFO]: Max auxiliary sends: 2
+[14:14:10] [Render thread/INFO]: Aux slot 1 created
+[14:14:10] [Render thread/INFO]: Aux slot 2 created
+[14:14:10] [Render thread/INFO]: Aux slot 3 created
+[14:14:10] [Render thread/INFO]: Aux slot 4 created
+[14:14:10] [Render thread/INFO]: EFX ready
+[14:14:10] [Render thread/INFO]: Received config from the server: 
+[14:14:10] [Render thread/INFO]: Starting JEI...
+[14:14:10] [Render thread/INFO]: Registering item subtypes...
+[14:14:10] [Render thread/INFO]: Registering item subtypes took 8.117 ms
+[14:14:10] [Render thread/INFO]: Registering fluid subtypes...
+[14:14:10] [Render thread/INFO]: Registering fluid subtypes took 4.338 ms
+[14:14:10] [Render thread/INFO]: Registering ingredients...
+[14:14:10] [Render thread/INFO]: Registering ingredients: jei:minecraft took 97.95 milliseconds
+[14:14:10] [Render thread/INFO]: Loading config file: C:\Users\Lorenzo Giannini\curseforge\minecraft\Instances\Loweredgames Modpack\config\jei\jei-debug.ini
+[14:14:10] [Render thread/INFO]: Registering ingredients took 104.0 ms
+[14:14:10] [Render thread/INFO]: Registering categories...
+[14:14:10] [Render thread/INFO]: Registering categories: jei:minecraft took 49.36 milliseconds
+[14:14:10] [Render thread/INFO]: Registering categories took 53.02 ms
+[14:14:10] [Render thread/INFO]: Registering vanilla category extensions...
+[14:14:11] [Render thread/INFO]: Registering vanilla category extensions took 5.568 ms
+[14:14:11] [Render thread/INFO]: Registering recipe catalysts...
+[14:14:11] [Render thread/INFO]: Registering recipe catalysts took 2.689 ms
+[14:14:11] [Render thread/INFO]: Registering advanced plugins...
+[14:14:11] [Render thread/INFO]: Registering advanced plugins took 266.6 ?s
+[14:14:11] [Render thread/INFO]: Building recipe registry...
+[14:14:11] [Render thread/INFO]: Building recipe registry took 24.14 ms
+[14:14:11] [Render thread/INFO]: Registering recipes...
+[14:14:11] [Server thread/INFO]: Received secret request of Loweredgames (17)
+[14:14:11] [Server thread/INFO]: Sent secret to Loweredgames
+[14:14:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2092ms or 41 ticks behind
+[14:14:11] [Render thread/INFO]: Registering recipes: jei:minecraft took 336.4 milliseconds
+[14:14:11] [Render thread/INFO]: Registering recipes took 337.0 ms
+[14:14:11] [Render thread/INFO]: Registering recipes transfer handlers...
+[14:14:11] [Render thread/INFO]: Registering recipes transfer handlers took 5.006 ms
+[14:14:11] [Render thread/INFO]: Building runtime...
+[14:14:11] [Render thread/INFO]: Registering gui handlers...
+[14:14:11] [Render thread/INFO]: Registering gui handlers: jei:gui took 13.27 milliseconds
+[14:14:11] [Render thread/INFO]: Registering gui handlers took 19.56 ms
+[14:14:11] [Render thread/INFO]: Registering Runtime...
+[14:14:11] [Render thread/INFO]: Starting JEI GUI
+[14:14:11] [Render thread/INFO]: Building ingredient list...
+[14:14:11] [Render thread/INFO]: Building ingredient list took 5.813 ms
+[14:14:11] [Render thread/INFO]: Building ingredient filter...
+[14:14:11] [Render thread/INFO]: Loading config file: C:\Users\Lorenzo Giannini\curseforge\minecraft\Instances\Loweredgames Modpack\config\jei\jei-client.ini
+[14:14:11] [Render thread/INFO]: Adding 1400 ingredients
+[14:14:11] [Render thread/INFO]: Added 1400 ingredients
+[14:14:11] [Render thread/INFO]: Building ingredient filter took 315.2 ms
+[14:14:11] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 478.8 milliseconds
+[14:14:11] [Render thread/INFO]: Registering Runtime took 479.5 ms
+[14:14:11] [Render thread/INFO]: Building runtime took 516.9 ms
+[14:14:11] [Render thread/INFO]: Sending Runtime...
+[14:14:11] [Render thread/INFO]: Sending Runtime took 291.2 ?s
+[14:14:11] [Render thread/INFO]: Starting JEI took 1.174 s
+[14:14:11] [Render thread/INFO]: Loaded 1101 advancements
+[14:14:12] [Render thread/INFO]: Received secret
+[14:14:12] [Render thread/INFO]: Connecting to voice chat server: '127.0.0.1:51477'
+[14:14:12] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[14:14:12] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 16d1f77e-7b6f-43db-8def-60f6f26affa1
+[14:14:12] [VoiceChatConnectionThread/INFO]: Server acknowledged authentication
+[14:14:12] [Render thread/INFO]: Deselecting world 
+[14:14:12] [Render thread/INFO]: Destroying LodBufferBuilder...
+[14:14:12] [Render thread/INFO]: LodBufferBuilder destroyed.
+[14:14:12] [Render thread/INFO]: Distant Horizon unloaded
+[14:14:12] [Render thread/INFO]: Loading new world/dimension: Nuovo mondo
+[14:14:12] [Render thread/INFO]: Selecting world Nuovo mondo while in world 
+[14:14:12] [Render thread/INFO]: Deselecting world 
+[14:14:12] [Render thread/INFO]: World/dimension loaded: Nuovo mondo
+[14:14:12] [Render thread/INFO]: World Chunk Loading: 181/314
+[14:14:13] [VoiceChatAuthenticationThread/INFO]: Trying to validate voice chat connection
+[14:14:13] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 16d1f77e-7b6f-43db-8def-60f6f26affa1
+[14:14:13] [VoiceChatPacketProcessingThread/INFO]: Player Loweredgames (16d1f77e-7b6f-43db-8def-60f6f26affa1) successfully connected to voice chat
+[14:14:13] [VoiceChatConnectionThread/INFO]: Server acknowledged connection check
+[14:14:13] [VoiceChatConnectionThread/INFO]: Clearing unused audio channels
+[14:14:13] [Render thread/INFO]: Creating GLProxy... If this is the last message you see in the log there must have been a OpenGL error.
+[14:14:13] [Render thread/INFO]: Lod Render OpenGL version [3.2.0 NVIDIA 531.41].
+[14:14:13] [Render thread/INFO]: minecraftGlCapabilities:
+Your OpenGL support:
+openGL version 3.2+: true <- REQUIRED
+Vertex Attribute Buffer Binding: true <- optional improvement
+Buffer Storage: true <- optional improvement
+
+[14:14:13] [MicrophoneThread/ERROR]: Voicechat sound manager ALC error: de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.tryOpenMic[131] Invalid value
+[14:14:13] [MicrophoneThread/WARN]: Failed to open microphone '', falling back to default microphone
+[14:14:13] [MicrophoneThread/ERROR]: Voicechat sound manager ALC error: de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.tryOpenMic[131] Invalid value
+[14:14:13] [MicrophoneThread/ERROR]: Voicechat sound manager ALC error: de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.tryOpenMic[131] Invalid value
+[14:14:13] [MicrophoneThread/WARN]: Failed to use OpenAL microphone implementation
+de.maxhenkel.voicechat.voice.client.MicrophoneException: Failed to open microphone: Unknown error
+	at de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.tryOpenMic(ALMicrophone.java:132) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+	at de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.openMic(ALMicrophone.java:123) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+	at de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.open(ALMicrophone.java:33) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+	at de.maxhenkel.voicechat.voice.client.microphone.MicrophoneManager.createALMicrophone(MicrophoneManager.java:39) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+	at de.maxhenkel.voicechat.voice.client.microphone.MicrophoneManager.createMicrophone(MicrophoneManager.java:20) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+	at de.maxhenkel.voicechat.voice.client.MicThread.run(MicThread.java:62) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+[14:14:13] [MicrophoneThread/WARN]: Falling back to Java microphone implementation
+[14:14:13] [MicrophoneThread/WARN]: Failed to open microphone '', falling back to default microphone
+[14:14:13] [MicrophoneThread/ERROR]: Failed to start microphone thread
+de.maxhenkel.voicechat.voice.client.MicrophoneException: line with format PCM_SIGNED 48000.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian not supported.
+	at de.maxhenkel.voicechat.voice.client.microphone.JavaxMicrophone.open(JavaxMicrophone.java:51) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+	at de.maxhenkel.voicechat.voice.client.microphone.MicrophoneManager.createJavaMicrophone(MicrophoneManager.java:33) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+	at de.maxhenkel.voicechat.voice.client.microphone.MicrophoneManager.createMicrophone(MicrophoneManager.java:24) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+	at de.maxhenkel.voicechat.voice.client.MicThread.run(MicThread.java:62) ~[voicechat-fabric-1.19.4-2.4.4.jar:?]
+[14:14:13] [MicrophoneThread/INFO]: [System] [CHAT] [Simple Voice Chat] Microphone unavailable
+[14:14:13] [Render thread/INFO]: lodBuilderGlCapabilities:
+Your OpenGL support:
+openGL version 3.2+: true <- REQUIRED
+Vertex Attribute Buffer Binding: true <- optional improvement
+Buffer Storage: true <- optional improvement
+
+[14:14:13] [Render thread/INFO]: proxyWorkerGlCapabilities:
+Your OpenGL support:
+openGL version 3.2+: true <- REQUIRED
+Vertex Attribute Buffer Binding: true <- optional improvement
+Buffer Storage: true <- optional improvement
+
+[14:14:13] [Render thread/INFO]: GPU Vendor [NVIDIA CORPORATION], Preferred upload method is [BUFFER_STORAGE].
+[14:14:13] [Render thread/INFO]: GLProxy creation successful. OpenGL smiles upon you this day.
+[14:14:13] [Sub-Dimension-Finder/INFO]: Attempting to determine default sub-dimension for [overworld]
+[14:14:13] [Sub-Dimension-Finder/INFO]: Potential Sub Dimension folders: [1]
+[14:14:13] [Sub-Dimension-Finder/INFO]: Default Sub Dimension set to: [_Default...]
+[14:14:13] [Render thread/INFO]: World Chunk Loading: 216/314
+[14:14:14] [Render thread/INFO]: Adding dim [Dim = overworld, Region = MovabeGridRingList[00,00] 1*1[1]] to world Nuovo mondo
+[14:14:14] [Render thread/INFO]: Saving LODs
+[14:14:14] [Render thread/INFO]: Blocking until lod file save finishes!
+[14:14:14] [LodBufferBuilderFactory - main Thread[0]/INFO]: ============Render Regions rebuilt============
+[14:14:14] [Render thread/INFO]: World Chunk Loading: 250/314
+[14:14:14] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[14:14:15] [Render thread/INFO]: Setting up renderer
+[14:14:15] [Render thread/INFO]: Loading shader with type: 35633
+[14:14:15] [Render thread/INFO]: Shader loaded sucessfully.
+[14:14:15] [Render thread/INFO]: Loading shader with type: 35632
+[14:14:15] [Render thread/INFO]: Shader loaded sucessfully.
+[14:14:15] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[14:14:15] [Render thread/INFO]: Quad IBO Resizing from [0] to [21845] with type: GL_UNKNOWN(5125)
+[14:14:15] [Render thread/INFO]: All GLBuffer is freed.
+[14:14:15] [Render thread/INFO]: Renderer setup complete
+[14:14:15] [Render thread/INFO]: World Chunk Loading: 352/314
+[14:14:16] [Render thread/INFO]: World Chunk Loading: 442/314
+[14:14:17] [Render thread/INFO]: World Chunk Loading: 525/314
+[14:14:17] [Render thread/INFO]: World Chunk Building: 6/314
+[14:14:17] [Render thread/INFO]: Same prepared chunk count returned 5 time(s) in a row!
+[14:14:17] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:17] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:17] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:17] [Render thread/INFO]: Same prepared chunk count returned 5 time(s) in a row!
+[14:14:17] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:18] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:18] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:18] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:18] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:18] [Render thread/INFO]: World Chunk Loading: 649/314
+[14:14:18] [Render thread/INFO]: World Chunk Building: 12/314
+[14:14:18] [Render thread/INFO]: Same built chunk count returned 49 time(s) in a row!
+[14:14:18] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:18] [Render thread/INFO]: Same prepared chunk count returned 10 time(s) in a row!
+[14:14:18] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:18] [Render thread/INFO]: Same prepared chunk count returned 4 time(s) in a row!
+[14:14:18] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:19] [Render thread/INFO]: Same prepared chunk count returned 6 time(s) in a row!
+[14:14:19] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:19] [Render thread/INFO]: World Chunk Loading: 720/314
+[14:14:19] [Render thread/INFO]: World Chunk Building: 17/314
+[14:14:19] [Render thread/INFO]: Same built chunk count returned 45 time(s) in a row!
+[14:14:19] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:19] [Render thread/INFO]: Same prepared chunk count returned 4 time(s) in a row!
+[14:14:19] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:19] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:19] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:19] [Render thread/INFO]: Same prepared chunk count returned 12 time(s) in a row!
+[14:14:19] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:20] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:20] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:20] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:20] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:20] [Render thread/INFO]: World Chunk Loading: 804/314
+[14:14:20] [Render thread/INFO]: World Chunk Building: 21/314
+[14:14:20] [Render thread/INFO]: Same built chunk count returned 47 time(s) in a row!
+[14:14:20] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:20] [Render thread/INFO]: Same prepared chunk count returned 4 time(s) in a row!
+[14:14:20] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:20] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[14:14:20] [Render thread/INFO]: Same prepared chunk count returned 7 time(s) in a row!
+[14:14:20] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:21] [Render thread/INFO]: Same prepared chunk count returned 13 time(s) in a row!
+[14:14:21] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:21] [Render thread/INFO]: Same prepared chunk count returned 4 time(s) in a row!
+[14:14:21] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:21] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:21] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:21] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:21] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:21] [Render thread/INFO]: World Chunk Loading: 863/314
+[14:14:21] [Render thread/INFO]: World Chunk Building: 25/314
+[14:14:21] [Render thread/INFO]: Same built chunk count returned 48 time(s) in a row!
+[14:14:21] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:21] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:21] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:21] [Render thread/INFO]: Same prepared chunk count returned 22 time(s) in a row!
+[14:14:21] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:22] [Render thread/INFO]: World Chunk Loading: 869/314
+[14:14:22] [Render thread/INFO]: World Chunk Building: 30/314
+[14:14:22] [Render thread/INFO]: Same built chunk count returned 49 time(s) in a row!
+[14:14:22] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:23] [Render thread/INFO]: World Chunk Building: 34/314
+[14:14:23] [Render thread/INFO]: Same built chunk count returned 37 time(s) in a row!
+[14:14:23] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:23] [Render thread/INFO]: Same prepared chunk count returned 69 time(s) in a row!
+[14:14:23] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:23] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:23] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:23] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:23] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:24] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:24] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:24] [Render thread/INFO]: World Chunk Loading: 876/314
+[14:14:24] [Render thread/INFO]: World Chunk Building: 38/314
+[14:14:24] [Render thread/INFO]: Same built chunk count returned 37 time(s) in a row!
+[14:14:24] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:24] [Render thread/INFO]: Same prepared chunk count returned 22 time(s) in a row!
+[14:14:24] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:25] [Render thread/INFO]: World Chunk Loading: 877/314
+[14:14:25] [Render thread/INFO]: World Chunk Building: 43/314
+[14:14:25] [Render thread/INFO]: Same built chunk count returned 50 time(s) in a row!
+[14:14:25] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:25] [Render thread/INFO]: Same prepared chunk count returned 43 time(s) in a row!
+[14:14:25] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:25] [Render thread/INFO]: Same prepared chunk count returned 7 time(s) in a row!
+[14:14:25] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:26] [Render thread/INFO]: World Chunk Loading: 882/314
+[14:14:26] [Render thread/INFO]: World Chunk Building: 49/314
+[14:14:26] [Render thread/INFO]: Same built chunk count returned 42 time(s) in a row!
+[14:14:26] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:26] [Render thread/INFO]: Same prepared chunk count returned 46 time(s) in a row!
+[14:14:26] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:27] [Render thread/INFO]: World Chunk Loading: 883/314
+[14:14:27] [Render thread/INFO]: World Chunk Building: 54/314
+[14:14:27] [Render thread/INFO]: Same built chunk count returned 42 time(s) in a row!
+[14:14:27] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:27] [Render thread/INFO]: Same prepared chunk count returned 25 time(s) in a row!
+[14:14:27] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:28] [Render thread/INFO]: World Chunk Loading: 886/314
+[14:14:28] [Render thread/INFO]: World Chunk Building: 60/314
+[14:14:28] [Render thread/INFO]: Same built chunk count returned 31 time(s) in a row!
+[14:14:28] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:29] [Render thread/INFO]: Same prepared chunk count returned 56 time(s) in a row!
+[14:14:29] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:29] [Render thread/INFO]: World Chunk Loading: 889/314
+[14:14:29] [Render thread/INFO]: World Chunk Building: 65/314
+[14:14:29] [Render thread/INFO]: Same built chunk count returned 32 time(s) in a row!
+[14:14:29] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:29] [Render thread/INFO]: Same prepared chunk count returned 4 time(s) in a row!
+[14:14:29] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:29] [Render thread/INFO]: Same prepared chunk count returned 4 time(s) in a row!
+[14:14:29] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:29] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[14:14:29] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:29] [Render thread/INFO]: Same prepared chunk count returned 4 time(s) in a row!
+[14:14:29] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:30] [Render thread/INFO]: Same prepared chunk count returned 7 time(s) in a row!
+[14:14:30] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:30] [Render thread/INFO]: Same prepared chunk count returned 4 time(s) in a row!
+[14:14:30] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:30] [Render thread/INFO]: World Chunk Loading: 903/314
+[14:14:30] [Render thread/INFO]: World Chunk Building: 71/314
+[14:14:30] [Render thread/INFO]: Same built chunk count returned 45 time(s) in a row!
+[14:14:30] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:30] [Render thread/INFO]: Same prepared chunk count returned 15 time(s) in a row!
+[14:14:30] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:30] [Render thread/INFO]: Same prepared chunk count returned 11 time(s) in a row!
+[14:14:30] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:31] [Render thread/INFO]: Same prepared chunk count returned 8 time(s) in a row!
+[14:14:31] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:31] [Render thread/INFO]: Same prepared chunk count returned 6 time(s) in a row!
+[14:14:31] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:31] [Render thread/INFO]: World Chunk Loading: 924/314
+[14:14:31] [Render thread/INFO]: World Chunk Building: 77/314
+[14:14:31] [Render thread/INFO]: Same built chunk count returned 47 time(s) in a row!
+[14:14:31] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:32] [Render thread/INFO]: World Chunk Building: 83/314
+[14:14:32] [Render thread/INFO]: Same built chunk count returned 42 time(s) in a row!
+[14:14:32] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:33] [Render thread/INFO]: World Chunk Building: 87/314
+[14:14:33] [Render thread/INFO]: Same built chunk count returned 46 time(s) in a row!
+[14:14:33] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:34] [Render thread/INFO]: World Chunk Building: 93/314
+[14:14:34] [Render thread/INFO]: Same built chunk count returned 48 time(s) in a row!
+[14:14:34] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:35] [Render thread/INFO]: World Chunk Building: 99/314
+[14:14:35] [Render thread/INFO]: Same built chunk count returned 47 time(s) in a row!
+[14:14:35] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:36] [Render thread/INFO]: World Chunk Building: 105/314
+[14:14:36] [Render thread/INFO]: Same built chunk count returned 44 time(s) in a row!
+[14:14:36] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[14:14:36] [Render thread/INFO]: Rendering is either taking too long or hit a roadblock. If you are in a server, this is potentially a limitation of the servers render distance and can be ignored.
+[14:14:37] [Render thread/INFO]: [System] [CHAT] §eJourneyMap:§f Press [§bJ§f]
+[14:14:38] [Server thread/INFO]: Saving and pausing game...
+[14:14:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:overworld
+[14:14:38] [Server thread/INFO]: Saving LODs
+[14:14:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:the_nether
+[14:14:38] [LodDimensionFileHandler Thread[0]/INFO]: Lod File Writer started. To-be-written-regions: 2
+[14:14:38] [Server thread/INFO]: Saving LODs
+[14:14:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:the_end
+[14:14:38] [Server thread/INFO]: Saving LODs
+[14:14:40] [LodDimensionFileHandler Thread[0]/INFO]: Lod File Writer completed. Took PT1.7580389S
+[14:16:09] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[14:16:12] [Server thread/INFO]: Saving and pausing game...
+[14:16:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:overworld
+[14:16:12] [Server thread/INFO]: Saving LODs
+[14:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:the_nether
+[14:16:13] [LodDimensionFileHandler Thread[0]/INFO]: Lod File Writer started. To-be-written-regions: 4
+[14:16:13] [Server thread/INFO]: Saving LODs
+[14:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:the_end
+[14:16:13] [Server thread/INFO]: Saving LODs
+[14:16:13] [Render thread/INFO]: Clearing audio channels
+[14:16:13] [Render thread/INFO]: Stopping microphone thread
+[14:16:13] [Render thread/INFO]: Disconnecting voicechat
+[14:16:13] [Render thread/INFO]: Clearing unused audio channels
+[14:16:13] [Render thread/INFO]: Stopping JEI
+[14:16:13] [Render thread/INFO]: Stopping JEI
+[14:16:13] [Render thread/INFO]: Sending Runtime Unavailable...
+[14:16:13] [Render thread/INFO]: Stopping JEI GUI
+[14:16:13] [Render thread/INFO]: Sending Runtime Unavailable took 293.9 ?s
+[14:16:13] [Server thread/INFO]: Loweredgames lost connection: Disconnesso/a
+[14:16:13] [Server thread/INFO]: Loweredgames ha abbandonato la partita
+[14:16:13] [Server thread/INFO]: Disconnecting client Loweredgames
+[14:16:13] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[14:16:13] [Server thread/INFO]: Stopping server
+[14:16:13] [Server thread/INFO]: Saving players
+[14:16:13] [Server thread/INFO]: Saving worlds
+[14:16:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:overworld
+[14:16:16] [Server thread/INFO]: Saving LODs
+[14:16:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:the_nether
+[14:16:16] [Server thread/INFO]: Saving LODs
+[14:16:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nuovo mondo]'/minecraft:the_end
+[14:16:16] [Server thread/INFO]: Saving LODs
+[14:16:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (Nuovo mondo): All chunks are saved
+[14:16:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:16:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:16:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:16:16] [Server thread/INFO]: Deselecting world Nuovo mondo
+[14:16:16] [Server thread/INFO]: Saving LODs
+[14:16:16] [Server thread/INFO]: Blocking until lod file save finishes!
+[14:16:17] [LodDimensionFileHandler Thread[0]/INFO]: Lod File Writer completed. Took PT4.1720918S
+[14:16:17] [Server thread/INFO]: Destroying LodBufferBuilder...
+[14:16:17] [Server thread/INFO]: LodBufferBuilder destroyed.
+[14:16:17] [Server thread/INFO]: Blocking until GL jobs finished...
+[14:16:17] [Server thread/INFO]: All GL jobs finished!
+[14:16:17] [Server thread/INFO]: Distant Horizon unloaded
+[14:16:17] [Server thread/INFO]: Unloading server configs...
+[14:16:17] [Server thread/INFO]: Sending config unload event for backpacked-server.toml
+[14:16:17] [Render thread/INFO]: Stopping worker threads
+[14:16:18] [Render thread/INFO]: Stopping!
+[14:16:18] [Render thread/INFO]: Stopping JEI
+[14:16:18] [Render thread/INFO]: Stopping JEI
+[14:16:18] [Render thread/INFO]: Sending Runtime Unavailable...
+[14:16:18] [Render thread/INFO]: Stopping JEI GUI
+[14:16:18] [Render thread/INFO]: Sending Runtime Unavailable took 200.9 ?s
