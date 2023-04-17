@@ -1,0 +1,14 @@
+name = "YUNG's Better Desert Temples"
+filename = "YungsBetterDesertTemples-1.19.4-Fabric-2.4.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/XNlO7sBv/versions/XPZvt9X7/YungsBetterDesertTemples-1.19.4-Fabric-2.4.0.jar"
+hash-format = "sha512"
+hash = "d81ea96ff90517f8e654edb0fb15e15ab6d1e5bd7228af19bbf0cc7eef833b4d0b39caa9e255979353fde076c47d591d8f158aa5542e45a7736f94b8bd2da51e"
+
+[update]
+[update.modrinth]
+mod-id = "XNlO7sBv"
+version = "XPZvt9X7"

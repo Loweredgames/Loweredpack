@@ -1,0 +1,14 @@
+name = "GUI Followers"
+filename = "guifollowers-1.19.4-3.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/hTGmExq6/versions/5p2qphkS/guifollowers-1.19.4-3.2.jar"
+hash-format = "sha512"
+hash = "f981281289a0dc70754e57137dfa338efbb552bd8a945d18cf9efe47c775f6aa73f1e001edb337ab020721f76e2172ae06ea8e652f0af0e557cb09bee38e4ad4"
+
+[update]
+[update.modrinth]
+mod-id = "hTGmExq6"
+version = "5p2qphkS"

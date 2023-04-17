@@ -1,0 +1,14 @@
+name = "Panorama"
+filename = "panorama-1.3.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "b309a9279c3f2421c80e80315a13eb343df495ad"
+
+[update]
+[update.curseforge]
+file-id = 4440367
+project-id = 440465
