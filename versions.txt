@@ -3,4 +3,4 @@ Minecraft Version: 1.19.4
 
 Modpack Version: 1.0.0
 
-Data: 17.04.2023
+Build Version: 1.0.0-17.04.2023a
