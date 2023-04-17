@@ -83,6 +83,7 @@ mode = "fancy"
 				tnt_minecart = true
 				polar_bear = true
 				strider = true
+				painting = true
 				cave_spider = true
 				witch = true
 				cod = true
@@ -99,6 +100,8 @@ mode = "fancy"
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
 				copper_golem = true
+				moobloom = true
 				mauler = true
 				wildfire = true
+				iceologer = true
 
