@@ -1,14 +1,14 @@
-name = "Carpet"
-filename = "fabric-carpet-1.19.4-1.4.101+v230319.jar"
+name = "Carpet Mod"
+filename = "fabric-carpet-23w14a-1.4.104+v230405.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/TQTTVgYE/versions/p5SN7luf/fabric-carpet-1.19.4-1.4.101%2Bv230319.jar"
+url = "https://cdn.modrinth.com/data/TQTTVgYE/versions/jaoOesfu/fabric-carpet-23w14a-1.4.104%2Bv230405.jar"
 hash-format = "sha512"
-hash = "3327e5c27817e0c65429ae24ab89a2592d2d173257a61611643dff998ce0b229f983e57e2bf5cb413698a19d045ef22fcecca0c25dd877f085f015e17f3048b0"
+hash = "b3379cc2de75ccfa7c7d4930f6e5046debc737c0f35ec9ea80a0b14dd63537d0b879c2fb6e3669d4340bfaeaf677fe8b53188a080c2712783944cde8193c48fa"
 
 [update]
 [update.modrinth]
 mod-id = "TQTTVgYE"
-version = "p5SN7luf"
+version = "jaoOesfu"
