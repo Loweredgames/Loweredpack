@@ -1,6 +1,8 @@
 
-Minecraft Version: 1.20 - 23w14a
+Build Modpack Version: 1.0.0-26.04.2023a
 
-Modpack Version: 1.0.0-1.20
+Build Modpack Version Snapshots: \\
 
-Build Version: 1.0.0-17.04.2023a
+Minecraft Version: 1.19.4 - 00w00a
+
+Status Stable: True (If this is False, it means that the Modpack does not work and you have to wait for all mods to update for the new version)
