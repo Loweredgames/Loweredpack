@@ -1,0 +1,50 @@
+[11:07:43] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[11:07:43] [ForkJoinPool-1-worker-3/WARN]: Mod ambientsounds uses the version unspecified which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'unspecified'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:07:43] [ForkJoinPool-1-worker-9/WARN]: Mod lod uses the version 1.6.11a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '11a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:07:43] [ForkJoinPool-1-worker-11/WARN]: Mod terralith uses the version 2.3.7b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '7b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:07:43] [main/WARN]: Mod resolution failed
+[11:07:43] [main/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED backpacked 2.2.0 {depends minecraft @ [1.19.4]}, ROOT_FORCELOAD_SINGLE backpacked 2.2.0]
+[11:07:43] [main/INFO]: Reason: [HARD_DEP backpacked 2.2.0 {depends minecraft @ [1.19.4]}, HARD_DEP bookshelf 19.0.15 {depends minecraft @ [1.20]}, HARD_DEP darkpaintings 15.0.1 {depends minecraft @ [1.19.4]}, HARD_DEP disable_custom_worlds_advice 4.0 {depends minecraft @ [1.19.4]}, HARD_DEP lod 1.6.11a {depends minecraft @ [1.19.4]}, HARD_DEP panorama 1.3.0 {depends minecraft @ [1.20-alpha.23.12.a]}, HARD_DEP phosphor 0.8.1 {depends minecraft @ [1.19.x]}, HARD_DEP tipsmod 10.0.2 {depends minecraft @ [1.19.4]}, HARD_DEP world-gen 1.0.3 {depends minecraft @ [~1.19]}, HARD_DEP fastload_fapi_forward 1.0.1 {depends minecraft @ [1.18.2]}]
+[11:07:43] [main/INFO]: Fix: add [], remove [], replace [[world-gen 1.0.3] -> add:world-gen 1 ([(-∞,∞)]), [tipsmod 10.0.2] -> add:tipsmod 1 ([(-∞,∞)]), [disable_custom_worlds_advice 4.0] -> add:disable_custom_worlds_advice 1 ([(-∞,∞)]), [phosphor 0.8.1] -> add:phosphor 1 ([(-∞,∞)]), [panorama 1.3.0] -> add:panorama 1 ([(-∞,∞)]), [darkpaintings 15.0.1] -> add:darkpaintings 1 ([(-∞,∞)]), [bookshelf 19.0.15] -> add:bookshelf 18 ([(-∞,∞)]), [lod 1.6.11a] -> add:lod 1 ([(-∞,∞)]), [backpacked 2.2.0] -> add:backpacked 1 ([(-∞,∞)])]
+[11:07:43] [main/ERROR]: Incompatible mod set!
+net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Replace mod 'WorldGen' (world-gen) 1.0.3 with any version that is compatible with:
+		 - minecraft 1.20.1
+	 - Replace mod 'Tips' (tipsmod) 10.0.2 with any version that is compatible with:
+		 - minecraft 1.20.1
+		 - bookshelf, any version
+	 - Replace mod 'Disable Custom Worlds Advice' (disable_custom_worlds_advice) 4.0 with any version that is compatible with:
+		 - minecraft 1.20.1
+	 - Replace mod 'Phosphor' (phosphor) 0.8.1 with any version that is compatible with:
+		 - minecraft 1.20.1
+	 - Replace mod 'Panorama' (panorama) 1.3.0 with any version that is compatible with:
+		 - minecraft 1.20.1
+	 - Replace mod 'DarkPaintings' (darkpaintings) 15.0.1 with any version that is compatible with:
+		 - minecraft 1.20.1
+		 - bookshelf, any version
+	 - Replace mod 'Bookshelf' (bookshelf) 19.0.15 with any version that is compatible with:
+		 - minecraft 1.20.1
+	 - Replace mod 'Distant Horizons' (lod) 1.6.11a with any version that is compatible with:
+		 - minecraft 1.20.1
+	 - Replace mod 'Backpacked' (backpacked) 2.2.0 with any version that is compatible with:
+		 - minecraft 1.20.1
+Unmet dependency listing:
+	 - Mod 'Backpacked' (backpacked) 2.2.0 requires version 1.19.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'Bookshelf' (bookshelf) 19.0.15 requires version 1.20 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'DarkPaintings' (darkpaintings) 15.0.1 requires version 1.19.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'Disable Custom Worlds Advice' (disable_custom_worlds_advice) 4.0 requires version 1.19.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'Distant Horizons' (lod) 1.6.11a requires version 1.19.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'Panorama' (panorama) 1.3.0 requires version 1.20-alpha.23.12.a of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'Phosphor' (phosphor) 0.8.1 requires any 1.19.x version of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'Tips' (tipsmod) 10.0.2 requires version 1.19.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'WorldGen' (world-gen) 1.0.3 requires any version between 1.19 (inclusive) and 1.20- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'Fastload Fabric-api Forwarding' (fastload_fapi_forward) 1.0.1 requires version 1.18.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:192) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:148) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) ~[?:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) ~[?:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) ~[?:?]
