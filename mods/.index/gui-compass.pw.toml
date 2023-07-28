@@ -1,14 +1,14 @@
 name = "GUI Compass"
-filename = "guicompass-1.19.4-4.2.jar"
+filename = "guicompass-1.20.1-4.2.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/ZORMkttv/versions/CiqqoNgW/guicompass-1.19.4-4.2.jar"
+url = "https://cdn.modrinth.com/data/ZORMkttv/versions/zwXYtaeA/guicompass-1.20.1-4.2.jar"
 hash-format = "sha512"
-hash = "9869e0b2b5e264ff56a3d1ef3a858154da62416cd4eb1e02b4588ff9d78dfe562c67b654628be2c5656fa8085645bbe662efd9b26cd2e79d058db1794f2deedf"
+hash = "1f9fecfc154c51c3662962c1ce9de750511ba8deb22fe9a3fcfe09958815d9be1a7c4f7d110de5b3be64a93d4e1f4bebd03e292316b11fea023c5f5f3b3303eb"
 
 [update]
 [update.modrinth]
 mod-id = "ZORMkttv"
-version = "CiqqoNgW"
+version = "zwXYtaeA"

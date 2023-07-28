@@ -1,14 +1,14 @@
 name = "Tips"
-filename = "Tips-Fabric-1.19.4-10.0.2.jar"
+filename = "Tips-Fabric-1.20.1-12.0.1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "9c7803d00c884a1e3c869c9a14f2e9ae85a5178d"
+hash = "08c28d8c69da263cd3aa4f9ea138f6bb16e118a9"
 
 [update]
 [update.curseforge]
-file-id = 4458137
+file-id = 4648493
 project-id = 306549

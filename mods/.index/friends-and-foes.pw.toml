@@ -1,14 +1,14 @@
-name = "Friends&Foes (Fabric)"
-filename = "friendsandfoes-fabric-mc1.19.4-1.8.1.jar"
+name = "Friends&Foes"
+filename = "friendsandfoes-fabric-mc1.20.1-1.9.3.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/POQ2i9zu/versions/cv2Z5TeF/friendsandfoes-fabric-mc1.19.4-1.8.1.jar"
+url = "https://cdn.modrinth.com/data/POQ2i9zu/versions/Vkel37Wl/friendsandfoes-fabric-mc1.20.1-1.9.3.jar"
 hash-format = "sha512"
-hash = "3022c363dc9fc7f553f26740d491dad4b5a91004709a19113a570dc6a3431b0b0c3cbebbe40339a70f9843f44b918a7ff0dfcc3ca20e7fe90047a79ace226eac"
+hash = "96b27282bd683852e523e6110691a61db8fa8447bfa8bc597b938f509ad2ab9b1d4d7a15debee63a1013197b49bdb24629be019b967d51f7b156988e482f5063"
 
 [update]
 [update.modrinth]
 mod-id = "POQ2i9zu"
-version = "cv2Z5TeF"
+version = "Vkel37Wl"
