@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 Build Modpack Version: 1.0.0
 
 Build Modpack Version Snapshots: 1.0.0-27.07.2023.1637a
@@ -8,3 +9,12 @@ Minecraft Version: 1.20.1 - //
 Status Stable: False
 
 (If this is False, it means that the Modpack does not work and you have to wait for all mods to update for the new version)
+=======
+Build Modpack Version: 1.0.0-26.04.2023a
+
+Build Modpack Version Snapshots: \\
+
+Minecraft Version: 1.19.4 - 00w00a
+
+Status Stable: True (If this is False, it means that the Modpack does not work and you have to wait for all mods to update for the new version)
+>>>>>>> main
