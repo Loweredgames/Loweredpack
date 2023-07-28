@@ -1,14 +1,14 @@
 name = "Framework"
-filename = "framework-fabric-1.20.1-0.6.7.jar"
+filename = "framework-fabric-1.20.1-0.6.5.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "c03563698f698ec9e7896ed7e64dbbf6f8a7ed01"
+hash = "9c695b2bd9e5c1121ba515dbd740a37516939306"
 
 [update]
 [update.curseforge]
-file-id = 4628863
+file-id = 4590797
 project-id = 667391

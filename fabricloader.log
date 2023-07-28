@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 [21:27:34] [INFO] [FabricLoader/GameProvider]: Loading Minecraft 23w17a with Fabric Loader 0.14.19
 [21:27:34] [INFO] [FabricLoader/GameRemap]: Fabric is preparing JARs on first launch, this may take a few seconds...
+=======
+[21:04:22] [INFO] [FabricLoader/GameProvider]: Loading Minecraft 23w17a with Fabric Loader 0.14.19
+[21:04:22] [INFO] [FabricLoader/GameRemap]: Fabric is preparing JARs on first launch, this may take a few seconds...
+>>>>>>> parent of fa46a0f (1.0.0-27.07.2023.1637a)
