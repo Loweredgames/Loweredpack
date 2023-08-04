@@ -3,12 +3,12 @@ filename = "Tips-Fabric-1.20.1-12.0.1.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "08c28d8c69da263cd3aa4f9ea138f6bb16e118a9"
+mode = "url"
+url = "https://cdn.modrinth.com/data/AMCbgyVw/versions/8NwDwuAT/Tips-Fabric-1.20.1-12.0.1.jar"
+hash-format = "sha512"
+hash = "c36805575568081386cad5d8bd9a254271b7f9d46e7c1de18b9e6e55dd3217402c59985ad30354b0c1b58c8384bc978519a653f2cffcad31923b22ed20c944b0"
 
 [update]
-[update.curseforge]
-file-id = 4648493
-project-id = 306549
+[update.modrinth]
+mod-id = "AMCbgyVw"
+version = "8NwDwuAT"
