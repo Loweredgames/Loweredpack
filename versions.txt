@@ -1,7 +1,7 @@
 
 Build Modpack Version: 1.0.0
 
-Build Modpack Version Snapshots: 1.0.0-04.08.2023.1651a
+Build Modpack Version Snapshots: 1.0.0-04.08.2023.2651a
 
 Minecraft Version: 1.20.1 - //
 
