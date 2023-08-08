@@ -83,8 +83,8 @@ showAutosaveIndicator:true
 allowServerListing:true
 onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
-debugifyTelemetry:2
-telemetryOptInExtra:true
+debugifyTelemetry:0
+telemetryOptInExtra:false
 onboardAccessibility:false
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
