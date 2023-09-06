@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:["fabric"]
+resourcePacks:["vanilla","fabric","file/Faithful 32x - 1.20.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:it_it
@@ -101,7 +101,7 @@ key_key.chat:key.keyboard.unknown
 key_key.playerlist:key.keyboard.o
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.h
-key_key.socialInteractions:key.keyboard.unknown
+key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f7
 key_key.togglePerspective:key.keyboard.f2
 key_key.smoothCamera:key.keyboard.unknown
@@ -120,9 +120,9 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.dynamicfps.toggle_forced:key.keyboard.unknown
-key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.crawl:key.keyboard.c
+key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
+key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2
@@ -168,7 +168,7 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.u
 soundCategory_master:0.5
-soundCategory_music:0.0
+soundCategory_music:0.10328638497652576
 soundCategory_record:0.5
 soundCategory_weather:0.10093897
 soundCategory_block:0.5052817
