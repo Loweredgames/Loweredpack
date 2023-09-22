@@ -1,10 +1,6 @@
 
-Build Modpack Version: 1.0.0
+Build Modpack Version: 1.0.1
 
-Build Modpack Version Snapshot: SNAPSHOT_BUILDING:06.09.2023.12308a
+Build Modpack Version Snapshot: SNAPSHOT_BUILDING:22.09.2023.11138a
 
 Minecraft Version: 1.20.1 - //
-
-Status Stable: True
-
-(If this is False, it means that the Modpack does not work and you have to wait for all mods to update for the new version)

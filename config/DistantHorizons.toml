@@ -63,10 +63,10 @@ _version = 1
 		[client.advanced.autoUpdater]
 			# Automatically check for updates on game launch?
 			# 
-			enableAutoUpdater = false
+			enableAutoUpdater = true
 			# Should Distant Horizons silently, automatically download and install new versions? 
 			# 
-			enableSilentUpdates = false
+			enableSilentUpdates = true
 
 		[client.advanced.multiThreading]
 			# How many threads are used when building geometry data for the GPU? 
@@ -179,6 +179,9 @@ _version = 1
 			# 
 			# 
 			overrideVanillaGLLogger = true
+			# 
+			# 
+			glProfileMode = "CORE"
 			# If enabled this will disable (most) vanilla Minecraft rendering. 
 			# 
 			# NOTE: Do not report any issues when this mode is on! 
@@ -211,6 +214,12 @@ _version = 1
 			# DISABLED: Disable rendering
 			# 
 			rendererMode = "DEFAULT"
+			# 
+			# 
+			skipChunkUnloadUpdates = false
+			# 
+			# 
+			skipFullDataUpdateQueue = false
 			# Stops vertex colors from being passed. 
 			# Useful for debugging shaders
 			# 
@@ -229,6 +238,9 @@ _version = 1
 			# and the F6 key can be used to enable and disable LOD rendering.
 			# 
 			enableDebugKeybindings = false
+			# 
+			# 
+			glForwardCompatibilityMode = true
 			# Should specialized colors/rendering modes be used? 
 			# 
 			# OFF: Fake chunks will be drawn with their normal colors. 
@@ -251,6 +263,33 @@ _version = 1
 			# but overlapping quads will be drawn with red, drawn as a wireframe. 
 			#
 			debugMode = "OFF"
+			# 
+			# 
+			skipChunkLoadUpdates = false
+
+			[client.advanced.debugging.debugWireframe]
+				# Render LOD section status?
+				# 
+				showRenderSectionStatus = false
+				# Render queued world gen tasks?
+				# 
+				showWorldGenQueue = false
+				# Render render data file status?
+				# 
+				showRenderDataFileStatus = false
+				# If enabled, various wireframes for debugging internal functions will be drawn. 
+				# 
+				# NOTE: There WILL be performance hit! 
+				#    Additionally, only stuff that's loaded after you enable this 
+				#    will render their debug wireframes.
+				# 
+				enableRendering = false
+				# Render full data file sampling progress?
+				# 
+				showFullDataFileSampling = false
+				# Render full data file status?
+				# 
+				showFullDataFileStatus = false
 
 			[client.advanced.debugging.debugSwitch]
 				# If enabled, the mod will log information about the renderer OpenGL process. 
@@ -373,6 +412,33 @@ _version = 1
 			numberOfWorldGenerationThreads = 4.0
 
 		[client.advanced.graphics]
+
+			[client.advanced.graphics.ssao]
+				# Determines how many points in space are sampled for the occlusion test. 
+				# Higher numbers will improve quality and reduce banding, but will increase GPU load.
+				# 
+				sampleCount = 6
+				# Determines how dark the Screen Space Ambient Occlusion effect will be.
+				# 
+				strength = 0.2
+				# The radius, measured in pixels, that blurring is calculated for the SSAO. 
+				# Higher numbers will reduce banding at the cost of GPU performance.
+				# 
+				blurRadius = 2
+				# Increasing the value can reduce banding at the cost of reducing the strength of the effect.
+				# 
+				bias = 0.02
+				# Determines how dark the occlusion shadows can be. 
+				# 0 = totally black at the corners 
+				# 1 = no shadow
+				# 
+				minLight = 0.25
+				# Determines the radius Screen Space Ambient Occlusion is applied, measured in blocks.
+				# 
+				radius = 4.0
+				# Enable Screen Space Ambient Occlusion
+				# 
+				enabled = true
 
 			[client.advanced.graphics.advancedGraphics]
 				# What the value should vanilla Minecraft's texture LodBias be? 
