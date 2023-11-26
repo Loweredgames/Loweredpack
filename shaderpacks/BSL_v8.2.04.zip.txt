@@ -1,3 +1,0 @@
-#Fri Aug 04 16:58:42 CEST 2023
-AO=false
-LIGHT_SHAFT=false

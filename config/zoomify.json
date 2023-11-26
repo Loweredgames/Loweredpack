@@ -11,7 +11,7 @@
     "zoomify_gui_category_scrolling": {
         "zoomify_gui_scrollzoom_name": true,
         "zoomify_gui_scrollzoomamount_name": 3,
-        "zoomify_gui_scrollzoomsmoothness_name": 25,
+        "zoomify_gui_scrollzoomsmoothness_name": 100,
         "zoomify_gui_linearlikesteps_name": false
     },
     "zoomify_gui_category_controls": {

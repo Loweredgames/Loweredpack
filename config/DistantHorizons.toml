@@ -44,6 +44,13 @@ _version = 1
 			# or the world looks corrupted: restart your game.
 			# 
 			gpuUploadMethod = "AUTO"
+			# If true geometry data will be uploaded on a DH controlled thread, reducing FPS stuttering. 
+			# If false uploading will be done on Minecraft's main rendering thread. 
+			# 
+			# Setting this to false may reduce crashes or corrupted geometry on systems with an AMD GPU when Sodium is installed.
+			# 
+			# 
+			gpuUploadAsync = true
 			# How frequently should vertex buffers (geometry) be rebuilt and sent to the GPU? 
 			# Higher settings may cause stuttering, but will prevent holes in the world 
 			#
@@ -51,7 +58,7 @@ _version = 1
 			# How long should a buffer wait per Megabyte of data uploaded? 
 			# Helpful resource for frame times: https://fpstoms.com 
 			# 
-			# Longer times may reduce stuttering but will make fake chunks 
+			# Longer times may reduce stuttering but will make LODs 
 			# transition and load slower. Change this to [0] for no timeout. 
 			# 
 			# NOTE:
@@ -61,12 +68,25 @@ _version = 1
 			gpuUploadPerMegabyteInMilliseconds = 0
 
 		[client.advanced.autoUpdater]
+			#  If DH should use the nightly (provided by Gitlab), or stable (provided by Modrinth) build
+			# 
+			updateBranch = "STABLE"
 			# Automatically check for updates on game launch?
 			# 
-			enableAutoUpdater = false
-			# Should Distant Horizons silently, automatically download and install new versions? 
+			enableAutoUpdater = true
+			# Should Distant Horizons silently, automatically download and install new versions?
 			# 
-			enableSilentUpdates = false
+			enableSilentUpdates = true
+
+		[client.advanced.lodBuilding]
+			# Determines how long must pass between LOD chunk updates before another. 
+			# update can occur
+			# 
+			# Increasing this value will reduce CPU load but may may cause 
+			# LODs to become outdated more frequently or for longer. 
+			# 
+			# 
+			minTimeBetweenChunkUpdatesInSeconds = 1
 
 		[client.advanced.multiThreading]
 			# How many threads are used when building geometry data for the GPU? 
@@ -81,14 +101,6 @@ _version = 1
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
 			numberOfBufferBuilderThreads = 1
-			# If this value is less than 1.0, it will be treated as a percentage 
-			# of time each thread can run before going idle. 
-			# 
-			# This can be used to reduce CPU usage if the thread count 
-			# is already set to 1 for the given option, or more finely 
-			# tune CPU performance.
-			# 
-			runTimeRatioForWorldGenerationThreads = 0.25
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
 			# 
@@ -112,7 +124,63 @@ _version = 1
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
 			# 
-			runTimeRatioForFileHandlerThreads = 0.25
+			runTimeRatioForFileHandlerThreads = 0.5
+			# How many threads should be used when generating LOD 
+			# chunks outside the normal render distance? 
+			# 
+			# If you experience stuttering when generating distant LODs, 
+			# decrease this number. 
+			# If you want to increase LOD 
+			# generation speed, increase this number. 
+			# 
+			# Multi-threading Note: 
+			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
+			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
+			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
+			# 
+			numberOfWorldGenerationThreads = 2
+			# If this value is less than 1.0, it will be treated as a percentage 
+			# of time each thread can run before going idle. 
+			# 
+			# This can be used to reduce CPU usage if the thread count 
+			# is already set to 1 for the given option, or more finely 
+			# tune CPU performance.
+			# 
+			runTimeRatioForChunkLodConverterThreads = 0.25
+			# How many threads should be used when building LODs? 
+			# 
+			# These threads run when terrain is generated, when
+			# certain graphics settings are changed, and when moving around the world. 
+			# 
+			# Multi-threading Note: 
+			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
+			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
+			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
+			# 
+			numberOfLodBuilderThreads = 2
+			# Should only be disabled if deadlock occurs and LODs refuse to update. 
+			# This will cause CPU usage to drastically increase for the Lod Builder threads. 
+			# 
+			# Note that if deadlock did occur restarting MC may be necessary to stop the locked threads. 
+			# 
+			# 
+			enableLodBuilderThreadLimiting = true
+			# If this value is less than 1.0, it will be treated as a percentage 
+			# of time each thread can run before going idle. 
+			# 
+			# This can be used to reduce CPU usage if the thread count 
+			# is already set to 1 for the given option, or more finely 
+			# tune CPU performance.
+			# 
+			runTimeRatioForWorldGenerationThreads = 0.75
+			# If this value is less than 1.0, it will be treated as a percentage 
+			# of time each thread can run before going idle. 
+			# 
+			# This can be used to reduce CPU usage if the thread count 
+			# is already set to 1 for the given option, or more finely 
+			# tune CPU performance.
+			# 
+			runTimeRatioForLodBuilderThreads = 0.5
 			# How many threads should be used to convert Minecraft chunks into LOD data? 
 			# 
 			# These threads run both when terrain is generated and when
@@ -150,35 +218,16 @@ _version = 1
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfFileHandlerThreads = 1
-			# How many threads should be used when generating LOD 
-			# chunks outside the normal render distance? 
-			# 
-			# If you experience stuttering when generating distant LODs, 
-			# decrease this number. 
-			# If you want to increase LOD 
-			# generation speed, increase this number. 
-			# 
-			# Multi-threading Note: 
-			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
-			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
-			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			# 
-			numberOfWorldGenerationThreads = 1
-			# If this value is less than 1.0, it will be treated as a percentage 
-			# of time each thread can run before going idle. 
-			# 
-			# This can be used to reduce CPU usage if the thread count 
-			# is already set to 1 for the given option, or more finely 
-			# tune CPU performance.
-			# 
-			runTimeRatioForChunkLodConverterThreads = 0.25
+			numberOfFileHandlerThreads = 2
 
 		[client.advanced.debugging]
 			# Requires a reboot to change. 
 			# 
 			# 
 			overrideVanillaGLLogger = true
+			# 
+			# 
+			glProfileMode = "CORE"
 			# If enabled this will disable (most) vanilla Minecraft rendering. 
 			# 
 			# NOTE: Do not report any issues when this mode is on! 
@@ -211,6 +260,12 @@ _version = 1
 			# DISABLED: Disable rendering
 			# 
 			rendererMode = "DEFAULT"
+			# 
+			# 
+			skipChunkUnloadUpdates = false
+			# 
+			# 
+			skipFullDataUpdateQueue = false
 			# Stops vertex colors from being passed. 
 			# Useful for debugging shaders
 			# 
@@ -229,6 +284,9 @@ _version = 1
 			# and the F6 key can be used to enable and disable LOD rendering.
 			# 
 			enableDebugKeybindings = false
+			# 
+			# 
+			glForwardCompatibilityMode = true
 			# Should specialized colors/rendering modes be used? 
 			# 
 			# OFF: Fake chunks will be drawn with their normal colors. 
@@ -251,6 +309,33 @@ _version = 1
 			# but overlapping quads will be drawn with red, drawn as a wireframe. 
 			#
 			debugMode = "OFF"
+			# 
+			# 
+			skipChunkLoadUpdates = false
+
+			[client.advanced.debugging.debugWireframe]
+				# Render LOD section status?
+				# 
+				showRenderSectionStatus = false
+				# Render queued world gen tasks?
+				# 
+				showWorldGenQueue = false
+				# Render render data file status?
+				# 
+				showRenderDataFileStatus = false
+				# If enabled, various wireframes for debugging internal functions will be drawn. 
+				# 
+				# NOTE: There WILL be performance hit! 
+				#    Additionally, only stuff that's loaded after you enable this 
+				#    will render their debug wireframes.
+				# 
+				enableRendering = false
+				# Render full data file sampling progress?
+				# 
+				showFullDataFileSampling = false
+				# Render full data file status?
+				# 
+				showFullDataFileStatus = false
 
 			[client.advanced.debugging.debugSwitch]
 				# If enabled, the mod will log information about the renderer OpenGL process. 
@@ -289,6 +374,67 @@ _version = 1
 				# This can be useful for debugging. 
 				#
 				logWorldGenLoadEvent = "LOG_WARNING_TO_CHAT_AND_FILE"
+
+			[client.advanced.debugging.openGl]
+				# Requires a reboot to change. 
+				# 
+				# 
+				overrideVanillaGLLogger = false
+				# Can be changed if you experience crashing when loading into a world.
+				# 
+				# Defines the OpenGL context type Distant Horizon's will create. 
+				# Generally this should be left as [CORE] unless there is an issue with your GPU driver. 
+				# Possible values: [CORE],[COMPAT],[ANY] 
+				# 
+				# 
+				glProfileMode = "CORE"
+				# Defines how OpenGL errors are handled. 
+				# May incorrectly catch OpenGL errors thrown by other mods. 
+				# 
+				# IGNORE: Do nothing. 
+				# LOG: write an error to the log. 
+				# LOG_THROW: write to the log and throw an exception. 
+				#            Warning: this should only be enabled when debugging the LOD renderer 
+				#            as it may break Minecraft's renderer when an exception is thrown. 
+				# 
+				# 
+				glErrorHandlingMode = "IGNORE"
+				# Can be changed if you experience crashing when loading into a world.
+				# 
+				# If true Distant Horizon's OpenGL contexts will be created with legacy OpenGL methods disabled. 
+				# Distant Horizons doesn't use any legacy OpenGL methods so normally this should be disabled. 
+				# 
+				# 
+				enableGlForwardCompatibilityMode = true
+				# Can be changed if you experience crashing when loading into a world.
+				# Note: setting to an invalid version may also cause the game to crash.
+				# 
+				# Leaving this value at causes DH to try all supported GL versions. 
+				# 
+				# Defines the requested OpenGL context major version Distant Horizons will create. 
+				# Possible values (DH requires 3.2 or higher at minimum): 
+				# 4.6, 4.5, 4.4, 4.3, 4.2, 4.1, 4.0 
+				# 3.3, 3.2 
+				# 
+				# 
+				glContextMajorVersion = 0
+				# Can be changed if you experience crashing when loading into a world.
+				# 
+				# If true Distant Horizon's OpenGL contexts will be created with debugging enabled. 
+				# This allows for enhanced debugging but may throw warnings for other mods or active overlay software. 
+				# 
+				# 
+				enableGlDebugContext = false
+				# Can be changed if you experience crashing when loading into a world.
+				# Note: setting to an invalid version may also cause the game to crash.
+				# 
+				# Defines the requested OpenGL context major version Distant Horizons will create. 
+				# Possible values (DH requires 3.2 or higher at minimum): 
+				# 4.6, 4.5, 4.4, 4.3, 4.2, 4.1, 4.0 
+				# 3.3, 3.2 
+				# 
+				# 
+				glContextMinorVersion = 0
 
 			[client.advanced.debugging.exampleConfigScreen]
 				shortTest = "69"
@@ -373,6 +519,33 @@ _version = 1
 			numberOfWorldGenerationThreads = 4.0
 
 		[client.advanced.graphics]
+
+			[client.advanced.graphics.ssao]
+				# Determines how many points in space are sampled for the occlusion test. 
+				# Higher numbers will improve quality and reduce banding, but will increase GPU load.
+				# 
+				sampleCount = 6
+				# Determines how dark the Screen Space Ambient Occlusion effect will be.
+				# 
+				strength = 0.2
+				# The radius, measured in pixels, that blurring is calculated for the SSAO. 
+				# Higher numbers will reduce banding at the cost of GPU performance.
+				# 
+				blurRadius = 2
+				# Increasing the value can reduce banding at the cost of reducing the strength of the effect.
+				# 
+				bias = 0.02
+				# Determines how dark the occlusion shadows can be. 
+				# 0 = totally black at the corners 
+				# 1 = no shadow
+				# 
+				minLight = 0.25
+				# Determines the radius Screen Space Ambient Occlusion is applied, measured in blocks.
+				# 
+				radius = 4.0
+				# Enable Screen Space Ambient Occlusion
+				# 
+				enabled = true
 
 			[client.advanced.graphics.advancedGraphics]
 				# What the value should vanilla Minecraft's texture LodBias be? 
@@ -464,6 +637,9 @@ _version = 1
 				# Highest Quality: BLOCK
 				# 
 				maxHorizontalResolution = "BLOCK"
+				# The radius of the mod's render distance. (measured in chunks)
+				# 
+				lodChunkRenderDistanceRadius = 128
 				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
 				# 
 				# True: a red flower will tint the grass below it red. 
@@ -683,7 +859,7 @@ _version = 1
 			#  Note: when on a server, distant generation isn't supported 
 			#  and will always be disabled.
 			# 
-			enableDistantGeneration = false
+			enableDistantGeneration = true
 
 		[client.advanced.multiplayer]
 			# AKA: Multiverse support. 
