@@ -1,6 +1,6 @@
 
-Build Modpack Version: 1.0.1
+Build Modpack Version: 1.1.0
 
 Build Modpack Version Snapshot: SNAPSHOT_BUILDING:22.09.2023.11138a
 
-Minecraft Version: 1.20.1 - //
+Minecraft Version: 1.20.2 - //

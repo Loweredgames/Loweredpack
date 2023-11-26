@@ -11,3 +11,9 @@
 
 - aggiornate le mods e fabric
 - miglioramenti delle prestazioni delle mod
+
+## Modpack Loweredpack Version: 1.1.0 - 1.20.2 (26.11.2023)
+
+- aggiornate le mods e fabric
+- - aggiunte nuove mods
+- miglioramenti delle prestazioni delle mod
